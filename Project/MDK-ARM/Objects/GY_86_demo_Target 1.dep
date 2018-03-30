@@ -661,7 +661,7 @@ I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x52D7F99A)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D7F99B)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x52D7F99A)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7F99A)
-F (..\..\BSP\led.c)(0x566C0974)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+F (..\..\BSP\led.c)(0x5ABE213B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
 I (..\..\BSP\led.h)(0x5ABDEEA3)
 I (..\..\Libraries\CMSIS\ST\STM32F0xx\Include\stm32f0xx.h)(0x5ABDC6D0)
 I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52D7F961)
@@ -692,7 +692,7 @@ I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D7F99B)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x52D7F99A)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7F99B)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7F99A)
-F (..\..\BSP\i2c.c)(0x5ABDEAA1)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+F (..\..\BSP\i2c.c)(0x5ABE2143)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
 I (..\..\BSP\i2c.h)(0x5ABDD801)
 I (..\..\Libraries\CMSIS\ST\STM32F0xx\Include\stm32f0xx.h)(0x5ABDC6D0)
 I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52D7F961)
@@ -724,7 +724,7 @@ I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x52D7F99A)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7F99B)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7F99A)
 I (..\..\BSP\systick.h)(0x55EEDF35)
-F (..\..\BSP\systick.c)(0x5ABDE778)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+F (..\..\BSP\systick.c)(0x5ABE216E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
 I (..\..\BSP\systick.h)(0x55EEDF35)
 I (..\..\Libraries\CMSIS\ST\STM32F0xx\Include\stm32f0xx.h)(0x5ABDC6D0)
 I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52D7F961)
@@ -755,7 +755,7 @@ I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x52D7F99B)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x52D7F99A)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7F99B)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7F99A)
-F (..\..\BSP\usart.c)(0x5ABDFAFD)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+F (..\..\BSP\usart.c)(0x5ABE2134)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
 I (..\..\BSP\usart.h)(0x5ABDFA05)
 I (..\..\Libraries\CMSIS\ST\STM32F0xx\Include\stm32f0xx.h)(0x5ABDC6D0)
 I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52D7F961)
@@ -787,7 +787,7 @@ I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x52D7F99A)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7F99B)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7F99A)
 I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-F (..\..\BSP\mpu6050.c)(0x5ABDE66E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\mpu6050.o --omf_browse .\objects\mpu6050.crf --depend .\objects\mpu6050.d)
+F (..\..\BSP\mpu6050.c)(0x5ABE20CB)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\mpu6050.o --omf_browse .\objects\mpu6050.crf --depend .\objects\mpu6050.d)
 I (..\..\BSP\i2c.h)(0x5ABDD801)
 I (..\..\Libraries\CMSIS\ST\STM32F0xx\Include\stm32f0xx.h)(0x5ABDC6D0)
 I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52D7F961)
@@ -820,8 +820,8 @@ I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7F99B)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7F99A)
 I (..\..\BSP\MPU6050.h)(0x5ABDE532)
 I (..\..\BSP\IMU.h)(0x5ABDF3EF)
-I (..\..\BSP\HMC5883L.h)(0x5ABDDCC2)
-F (..\..\BSP\IMU.c)(0x5ABDEC0E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\imu.o --omf_browse .\objects\imu.crf --depend .\objects\imu.d)
+I (..\..\BSP\HMC5883L.h)(0x5ABE1F87)
+F (..\..\BSP\IMU.c)(0x5ABE20EF)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\imu.o --omf_browse .\objects\imu.crf --depend .\objects\imu.d)
 I (..\..\BSP\IMU.h)(0x5ABDF3EF)
 I (..\..\Libraries\CMSIS\ST\STM32F0xx\Include\stm32f0xx.h)(0x5ABDC6D0)
 I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52D7F961)
@@ -854,9 +854,9 @@ I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7F99B)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7F99A)
 I (G:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\..\BSP\MPU6050.h)(0x5ABDE532)
-I (..\..\BSP\HMC5883L.h)(0x5ABDDCC2)
+I (..\..\BSP\HMC5883L.h)(0x5ABE1F87)
 I (..\..\BSP\led.h)(0x5ABDEEA3)
-F (..\..\BSP\HMC5883L.c)(0x5ABDFFF6)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\hmc5883l.o --omf_browse .\objects\hmc5883l.crf --depend .\objects\hmc5883l.d)
+F (..\..\BSP\HMC5883L.c)(0x5ABE1F9E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\hmc5883l.o --omf_browse .\objects\hmc5883l.crf --depend .\objects\hmc5883l.d)
 I (..\..\BSP\i2c.h)(0x5ABDD801)
 I (..\..\Libraries\CMSIS\ST\STM32F0xx\Include\stm32f0xx.h)(0x5ABDC6D0)
 I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52D7F961)
@@ -889,8 +889,8 @@ I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x52D7F99B)
 I (..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x52D7F99A)
 I (..\..\BSP\MPU6050.h)(0x5ABDE532)
 I (..\..\BSP\IMU.h)(0x5ABDF3EF)
-I (..\..\BSP\HMC5883L.h)(0x5ABDDCC2)
-F (..\..\BSP\timer.c)(0x5ABDFC2F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\..\BSP\HMC5883L.h)(0x5ABE1F87)
+F (..\..\BSP\timer.c)(0x5ABE2176)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (..\..\BSP\timer.h)(0x55EC5D66)
 I (..\..\Libraries\CMSIS\ST\STM32F0xx\Include\stm32f0xx.h)(0x5ABDC6D0)
 I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52D7F961)
@@ -925,7 +925,7 @@ I (..\..\BSP\led.h)(0x5ABDEEA3)
 I (..\..\BSP\usart.h)(0x5ABDFA05)
 I (G:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\..\BSP\IMU.h)(0x5ABDF3EF)
-F (.\main.c)(0x5ABE0003)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x5ABE216E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\..\Libraries\CMSIS\ST\STM32F0xx\Include\stm32f0xx.h)(0x5ABDC6D0)
 I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52D7F961)
 I (G:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -962,9 +962,9 @@ I (..\..\BSP\i2c.h)(0x5ABDD801)
 I (..\..\BSP\systick.h)(0x55EEDF35)
 I (..\..\BSP\MPU6050.h)(0x5ABDE532)
 I (..\..\BSP\IMU.h)(0x5ABDF3EF)
-I (..\..\BSP\HMC5883L.h)(0x5ABDDCC2)
+I (..\..\BSP\HMC5883L.h)(0x5ABE1F87)
 I (..\..\BSP\timer.h)(0x55EC5D66)
-F (..\stm32f0xx_it.c)(0x5ABDB526)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\stm32f0xx_it.o --omf_browse .\objects\stm32f0xx_it.crf --depend .\objects\stm32f0xx_it.d)
+F (..\stm32f0xx_it.c)(0x5ABE2167)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\arm -I..\..\Libraries\CMSIS\ST\STM32F0xx\Include -I..\..\Libraries\CMSIS\Include -I..\..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\..\BSP -I..\MDK-ARM -I..\..\Project-I D:\Users\顾影_\Desktop\Direction-module-of-unmanned-vehicle\Project\MDK-ARM\RTE-I G:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0-I G:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F072xB -DUSE_STDPERIPH_DRIVER -DSTM32F072-o .\objects\stm32f0xx_it.o --omf_browse .\objects\stm32f0xx_it.crf --depend .\objects\stm32f0xx_it.d)
 I (..\stm32f0xx_it.h)(0x5225A5AB)
 I (..\..\Libraries\CMSIS\ST\STM32F0xx\Include\stm32f0xx.h)(0x5ABDC6D0)
 I (..\..\Libraries\CMSIS\Include\core_cm0.h)(0x52D7F961)

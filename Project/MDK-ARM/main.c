@@ -1,14 +1,3 @@
-/******************** (C) COPYRIGHT  源地工作室 ********************************
- * 文件名  ：main.c
- * 描述    ：通过串口1打印输出自己输入的字符串；（串口信息为：9600，N,8，1）  
- * 库版本  ：V1.3.0
- * 作者    ：zhuoyingxingyu
- * 淘宝    ：源地工作室http://vcc-gnd.taobao.com/
- * 论坛地址：极客园地-嵌入式开发论坛http://vcc-gnd.com/
- * 版本更新: 2015-12-20
- * 调试方式：J-Link-OB
-**********************************************************************************/	
-
 //头文件
 #include "stm32f0xx.h"
 #include "led.h"
@@ -38,7 +27,7 @@ int main(void)
     while(MPU_Init()){
 		UART_PutStr(USART1,"faild\r\n");
 		delay_ms(1000);
-		}
+	}
 	MPU_Gyro_Offset();
 	MPU_Acc_Offset();
 	

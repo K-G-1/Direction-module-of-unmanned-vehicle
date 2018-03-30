@@ -1,15 +1,3 @@
-/******************** (C) COPYRIGHT  源地工作室 ********************************
- * 文件名  ：usart.c
- * 描述    ：将printf函数重定向到USART1。这样就可以用printf函数将单片机的数据打
- *           印到PC上的超级终端或串口调试助手。     
- * 作者    ：zhuoyingxingyu
- * 淘宝    ：源地工作室http://vcc-gnd.taobao.com/
- * 论坛地址：极客园地-嵌入式开发论坛http://vcc-gnd.com/
- * 版本更新: 2015-12-20
- * 硬件连接: TX->PA9;RX->PA10
- * 调试方式：J-Link-OB
-**********************************************************************************/	
-
 //头文件
 #include "usart.h"
 
@@ -100,7 +88,7 @@ void Usart1_Send(unsigned char *DataToSend ,u8 data_num)
 
 	if(!(USART1->CR1 & USART_CR1_TXEIE))
 	{
-		USART_ITConfig(USART1, USART_IT_TXE, ENABLE); //??????
+		USART_ITConfig(USART1, USART_IT_TXE, ENABLE); 
 	}
 }
 

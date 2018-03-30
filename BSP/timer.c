@@ -1,19 +1,9 @@
-/******************** (C) COPYRIGHT  源地工作室 ********************************
- * 文件名  ：Timer.c
- * 描述    ：初始化通用定时器TIM2，实现TIM2定时功能 
- * 作者    ：zhuoyingxingyu
- * 淘宝    ：源地工作室http://vcc-gnd.taobao.com/
- * 论坛地址：极客园地-嵌入式开发论坛http://vcc-gnd.com/
- * 版本更新: 2015-12-20
- * 硬件连接: 无
- * 调试方式：J-Link-OB
-**********************************************************************************/
-
 #include "timer.h"
 #include "led.h"
 #include "usart.h"
 #include "IMU.h"
 #include <stdio.h>
+
 uint16_t Time2;
 u8 Txbuff[48];
  /**

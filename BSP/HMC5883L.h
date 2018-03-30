@@ -38,9 +38,31 @@
 
 #define CalThreshold 0 
 
+struct _Mag{
+	int16_t n_x;
+	int16_t n_y;
+	int16_t n_z;    
+	int16_t Ori_x;
+	int16_t Ori_y;
+	int16_t Ori_z;
+	int HMC5883_maxx;
+	int HMC5883_maxy;
+	int HMC5883_maxz;
+	int HMC5883_minx;
+	int HMC5883_miny;
+	int HMC5883_minz;
+	int16_t offset_mx;
+	int16_t offset_my;
+	int16_t offset_mz;
+	
+	float mx_scale;
+	float my_scale;
+	float mz_scale;
+	
+	int16_t HMC5883_calib_cnt; 
+};
 
-extern int Magn_x,Magn_y,Magn_z;
-extern u8 HMC5883_cnt;
+extern struct _Mag Mag;
 
 u8 Init_HMC5883L(void);
 void Multiple_Read_HMC5883L(void);
