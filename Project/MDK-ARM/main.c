@@ -19,10 +19,10 @@
 int main(void)
 {
 	
-	SYSTICK_Init();
-	I2C_Configuration();
-	LED_GPIO_Config();
-    USART1_Config();//串口参数配置初始化
+	SYSTICK_Init();				
+	I2C_Configuration();		//IIC初始化 SCL ：PB4   SDA： PB5
+	LED_GPIO_Config();		 	//led初始化，led1为PA5
+    USART1_Config();			//串口参数配置初始化
 	
     while(MPU_Init()){
 		UART_PutStr(USART1,"faild\r\n");
@@ -33,7 +33,7 @@ int main(void)
 	
 	Init_HMC5883L();
 //	HMC5883L_Start_Calib();
-	TIM2_Config();	
+	TIM2_Config();				//TIM2定时器初始化 中断间隔 3ms
 		
     while (1)
     {

@@ -38,6 +38,15 @@ void Get_Attitude(void)
 float q0 = 1, q1 = 0, q2 = 0, q3 = 0;    //四元数的元素，代表估计方向
 float exInt = 0, eyInt = 0, ezInt = 0;    // 按比例缩小积分误差
 
+float invSqrt(float x) {
+	float halfx = 0.5f * x;
+	float y = x;
+	long i = *(long*)&y;
+	i = 0x5f3759df - (i>>1);
+	y = *(float*)&i;
+	y = y * (1.5f - (halfx * y * y));
+	return y;
+}
 
 void IMUupdate(float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz)
 {
@@ -46,7 +55,9 @@ void IMUupdate(float gx, float gy, float gz, float ax, float ay, float az, float
 	volatile float vx, vy, vz, wx, wy, wz;
 	volatile float ex, ey, ez;
 	float temp0,temp1,temp2,temp3;
-
+	//  float temp;
+	//	float Xr,Yr;
+	// ?????????
 	float q0q0 = q0*q0;
 	float q0q1 = q0*q1;
 	float q0q2 = q0*q2;
@@ -58,14 +69,12 @@ void IMUupdate(float gx, float gy, float gz, float ax, float ay, float az, float
 	float q2q3 = q2*q3;
 	float q3q3 = q3*q3;          
 
-
-
-	norm = sqrt(ax*ax + ay*ay + az*az);       
+	norm = invSqrt(ax*ax + ay*ay + az*az);       
 	ax = ax * norm;
 	ay = ay * norm;
 	az = az * norm;
 
-	norm = sqrt(mx*mx + my*my + mz*mz);          
+	norm = invSqrt(mx*mx + my*my + mz*mz);          
 	mx = mx * norm;
 	my = my * norm;
 	mz = mz * norm;
@@ -109,7 +118,7 @@ void IMUupdate(float gx, float gy, float gz, float ax, float ay, float az, float
 	temp3 = q3 + (q0*gz + q1*gy - q2*gx)*halfT;  
 
 	// normalise quaternion
-	norm = sqrt(temp0*temp0 + temp1*temp1 + temp2*temp2 + temp3*temp3);
+	norm = invSqrt(temp0*temp0 + temp1*temp1 + temp2*temp2 + temp3*temp3);
 	q0 = temp0 * norm;
 	q1 = temp1 * norm;
 	q2 = temp2 * norm;
@@ -118,7 +127,8 @@ void IMUupdate(float gx, float gy, float gz, float ax, float ay, float az, float
 
 	angle.roll = atan2(2*q2*q3 + 2*q0*q1, -2*q1*q1 - 2*q2*q2 + 1) ; // roll
 	angle.pitch = asin(-2*q1*q3 + 2*q0*q2) ; // pitch
-	angle.yaw= atan2(2 * q1 * q2 + 2 * q0 * q3, -2 * q2*q2 - 2 * q3 * q3 + 1);//yaw
+
+	angle.yaw= atan2(2 * q1 * q2 + 2 * q0 * q3, -2 * q2*q2 - 2 * q3 * q3 + 1);
 
 	angle.roll *= RtA;
 	angle.pitch *= RtA;

@@ -50,7 +50,7 @@ void TIM2_IRQHandler(void)
 		Get_Attitude();
 		times_count ++;
 		
-		if(times_count %10 == 0)
+		if(times_count %100 == 0)
 		{
 			sprintf((char*)Txbuff,"put:%2.2f,%2.2f,%3.2f\r\n",(angle.roll),(angle.pitch),(angle.yaw));
 			UART_PutStr(USART1,Txbuff);

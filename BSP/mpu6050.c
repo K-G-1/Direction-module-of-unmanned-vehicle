@@ -104,19 +104,19 @@ void MPU_Updata(void)
 	sensor.gyro.radian.y = (sensor.gyro.origin.y - sensor.gyro.quiet.y ) ;
 	sensor.gyro.radian.z = (sensor.gyro.origin.z - sensor.gyro.quiet.z ) ;
 
-//	if(sensor.acc.CALIBRATE==1)
-//	{
-//	  MPU_Acc_Offset();
+	if(sensor.acc.CALIBRATE==1)
+	{
+		MPU_Acc_Offset();
 
-//		sensor.acc.CALIBRATE=0;
-//	}
+		sensor.acc.CALIBRATE=0;
+	}
 
-//	if(sensor.gyro.CALIBRATE==1)
-//	{
-//		MPU_Gyro_Offset();	
+	if(sensor.gyro.CALIBRATE==1)
+	{
+		MPU_Gyro_Offset();	
 
-//		sensor.gyro.CALIBRATE=0;
-//	}
+		sensor.gyro.CALIBRATE=0;
+	}
 }
 
 

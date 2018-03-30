@@ -98,10 +98,10 @@ void Multiple_Read_HMC5883L(void)
 	if(filter_cnt==FILL_NUM)	
 		filter_cnt=0;
 
-	if(Mag_CALIBRATED)
+	if(Mag.HMC5883_calib_cnt)
 	{
 		HMC5883L_Start_Calib();
-		Mag_CALIBRATED= 0;
+
 		HMC5883L_Save_Calib();
 	}
 
@@ -145,7 +145,7 @@ void HMC5883L_Start_Calib(void)
 		if(Mag.HMC5883_maxz<Mag.Ori_z)Mag.HMC5883_maxz=(int16_t)Mag.Ori_z;
 		
 		Mag.HMC5883_calib_cnt++;
-	}while(1);
+	}while(Mag.HMC5883_calib_cnt);
 
 
 

@@ -1,5 +1,7 @@
 //头文件
 #include "usart.h"
+#include "receivedata.h"
+
 
 #ifdef __GNUC__
   /* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
@@ -44,9 +46,7 @@ void USART1_Config(void)
     USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;		//使能接收和发送引脚
 
     USART_Init(USART, &USART_InitStructure);
-//	USART_ClearFlag(USART,USART_FLAG_TC);
-//	USART_ITConfig(USART, USART_IT_RXNE, ENABLE);
-//	USART_ITConfig(USART, USART_IT_TXE, ENABLE);		
+	USART_ITConfig(USART, USART_IT_RXNE, ENABLE);	
 	USART_Cmd(USART, ENABLE);
 	
 	NVIC_InitStructure.NVIC_IRQChannel = USART1_IRQn;//串口1中断通道
@@ -110,18 +110,15 @@ void UART_PutStr (USART_TypeDef* USARTx, uint8_t *str)
 
 void USART1_IRQHandler(void)                	//串口1中断服务程序
 {
-//	u8 com_data;
-//	
-
+	u8 com_data;
 
 //  //接收中断
 	if( USART_GetITStatus(USART1,USART_IT_RXNE) )
 	{
-		USART_ClearITPendingBit(USART1,USART_IT_RXNE);//??????
-
-//		com_data = USART_ReceiveData(USART1);
-
+		com_data = USART_ReceiveData(USART1);
+		ReceiveData(com_data);
+		USART_SendData(USART1, com_data);
+		while(USART_GetFlagStatus(USART1, USART_FLAG_TC) == RESET);
+		USART_ClearITPendingBit(USART1,USART_IT_RXNE);
 	}
-
-
 } 
