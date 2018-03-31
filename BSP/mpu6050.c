@@ -2,7 +2,7 @@
 #include "MPU6050.h"
 #include "IMU.h"
 #include "HMC5883L.h"
-	
+#include "stmflash.h"	
 
 u8		 mpu6050_buffer[15];
 
@@ -107,14 +107,14 @@ void MPU_Updata(void)
 	if(sensor.acc.CALIBRATE==1)
 	{
 		MPU_Acc_Offset();
-
+		Acc_Offest_write();
 		sensor.acc.CALIBRATE=0;
 	}
 
 	if(sensor.gyro.CALIBRATE==1)
 	{
 		MPU_Gyro_Offset();	
-
+		Gyro_Offest_write();
 		sensor.gyro.CALIBRATE=0;
 	}
 }

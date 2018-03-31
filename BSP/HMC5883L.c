@@ -3,7 +3,7 @@
 #include "MPU6050.h"
 #include "IMU.h"
 #include "HMC5883L.h"
-
+#include "stmflash.h"
 
 ///*±äÁ¿ÉùÃ÷----------------------------------------------------------------*/
 struct _Mag Mag;
@@ -27,16 +27,16 @@ u8 Init_HMC5883L(void)
 	tempA= IIC_ADD_read(HMC5883L_Addr, 0x0B);
 	tempA= IIC_ADD_read(HMC5883L_Addr, 0x0C);
 	
-	Mag.HMC5883_maxx = 454;
-	Mag.HMC5883_maxy = 744;
-	Mag.HMC5883_maxz = 452;
-	Mag.HMC5883_minx = -718;
-	Mag.HMC5883_miny = -503;
-	Mag.HMC5883_minz = -704;
-	
-	Mag.offset_mx = (Mag.HMC5883_maxx + Mag.HMC5883_minx)/2;
-	Mag.offset_my = (Mag.HMC5883_maxy + Mag.HMC5883_miny)/2;
-	Mag.offset_mz = (Mag.HMC5883_maxz + Mag.HMC5883_minz)/2;
+//	Mag.HMC5883_maxx = 454;
+//	Mag.HMC5883_maxy = 744;
+//	Mag.HMC5883_maxz = 452;
+//	Mag.HMC5883_minx = -718;
+//	Mag.HMC5883_miny = -503;
+//	Mag.HMC5883_minz = -704;
+//	
+//	Mag.offset_mx = (Mag.HMC5883_maxx + Mag.HMC5883_minx)/2;
+//	Mag.offset_my = (Mag.HMC5883_maxy + Mag.HMC5883_miny)/2;
+//	Mag.offset_mz = (Mag.HMC5883_maxz + Mag.HMC5883_minz)/2;
 	
 	Mag.mx_scale = 1.0;
 	Mag.my_scale = 1.0;
@@ -130,7 +130,7 @@ void HMC5883L_Start_Calib(void)
 	Mag.my_scale = 1.0;
 	Mag.mz_scale = 1.0;	
 
-	Mag.HMC5883_calib_cnt= 0;
+
 
 	do{
 
@@ -144,7 +144,7 @@ void HMC5883L_Start_Calib(void)
 		if(Mag.HMC5883_maxy<Mag.Ori_y)Mag.HMC5883_maxy=(int16_t)Mag.Ori_y;
 		if(Mag.HMC5883_maxz<Mag.Ori_z)Mag.HMC5883_maxz=(int16_t)Mag.Ori_z;
 		
-		Mag.HMC5883_calib_cnt++;
+//		Mag.HMC5883_calib_cnt++;
 	}while(Mag.HMC5883_calib_cnt);
 
 
@@ -163,7 +163,7 @@ void HMC5883L_Save_Calib(void)
 	Mag.offset_mx = (Mag.HMC5883_maxx+Mag.HMC5883_minx)/2;
 	Mag.offset_my = (Mag.HMC5883_maxy+Mag.HMC5883_miny)/2;
 	Mag.offset_mz = (Mag.HMC5883_maxz+Mag.HMC5883_minz)/2;
-
+	Mag_Offest_write();
 }
 
 

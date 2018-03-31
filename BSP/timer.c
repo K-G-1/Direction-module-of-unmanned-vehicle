@@ -3,9 +3,11 @@
 #include "usart.h"
 #include "IMU.h"
 #include <stdio.h>
+#include "stmflash.h"
+
 
 uint16_t Time2;
-u8 Txbuff[48];
+u8 Txbuff[32];
  /**
   * @file   TIM2_Config
   * @brief  调用函数库，初始化定时器2的配置
@@ -56,8 +58,11 @@ void TIM2_IRQHandler(void)
 			UART_PutStr(USART1,Txbuff);
 //			USART_SendData(USART1, 0x02);  
 //			while(USART_GetFlagStatus(USART1, USART_FLAG_TC) == RESET){}  
+//			times_count = 0;
 		}
-		
+//		if(times_count %250 ==0){
+//			Acc_Offest_Read();
+//		}
 		TIM_ClearITPendingBit(TIM2 , TIM_FLAG_Update);    //清除中断待处理位
     }		 
 }

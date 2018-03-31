@@ -8,7 +8,7 @@
 #include "IMU.h"
 #include "HMC5883L.h"
 #include "timer.h"
-
+#include "stmflash.h"
 
 /**
   * @file   main
@@ -28,10 +28,11 @@ int main(void)
 		UART_PutStr(USART1,"faild\r\n");
 		delay_ms(1000);
 	}
-	MPU_Gyro_Offset();
-	MPU_Acc_Offset();
+	Acc_Offest_Read();
+	Gyro_Offest_Read();
 	
 	Init_HMC5883L();
+	Mag_Offest_Read();
 //	HMC5883L_Start_Calib();
 	TIM2_Config();				//TIM2定时器初始化 中断间隔 3ms
 		

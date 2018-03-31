@@ -34,3 +34,4 @@
 .\objects\timer.o: ..\..\BSP\usart.h
 .\objects\timer.o: G:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\timer.o: ..\..\BSP\IMU.h
+.\objects\timer.o: ..\..\BSP\stmflash.h

@@ -38,3 +38,4 @@
 .\objects\main.o: ..\..\BSP\IMU.h
 .\objects\main.o: ..\..\BSP\HMC5883L.h
 .\objects\main.o: ..\..\BSP\timer.h
+.\objects\main.o: ..\..\BSP\stmflash.h

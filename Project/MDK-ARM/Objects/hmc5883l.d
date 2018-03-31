@@ -33,3 +33,4 @@
 .\objects\hmc5883l.o: ..\..\BSP\MPU6050.h
 .\objects\hmc5883l.o: ..\..\BSP\IMU.h
 .\objects\hmc5883l.o: ..\..\BSP\HMC5883L.h
+.\objects\hmc5883l.o: ..\..\BSP\stmflash.h

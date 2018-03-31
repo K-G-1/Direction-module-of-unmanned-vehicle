@@ -31,6 +31,7 @@
 ".\objects\hmc5883l.o"
 ".\objects\timer.o"
 ".\objects\receivedata.o"
+".\objects\stmflash.o"
 ".\objects\main.o"
 ".\objects\stm32f0xx_it.o"
 --strict --scatter ".\Objects\GY_86_demo.sct"
