@@ -55,7 +55,7 @@ void TIM2_IRQHandler(void)
 		if(times_count %100 == 0)
 		{
 			sprintf((char*)Txbuff,"put:%2.2f,%2.2f,%3.2f\r\n",(angle.roll),(angle.pitch),(angle.yaw));
-			UART_PutStr(USART1,Txbuff);
+			UART_PutStr(USART2,Txbuff);
 //			USART_SendData(USART1, 0x02);  
 //			while(USART_GetFlagStatus(USART1, USART_FLAG_TC) == RESET){}  
 //			times_count = 0;

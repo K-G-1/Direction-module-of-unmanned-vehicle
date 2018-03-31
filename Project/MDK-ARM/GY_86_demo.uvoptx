@@ -181,62 +181,84 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>16</LineNumber>
+          <LineNumber>189</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134232860</Address>
+          <Address>134228634</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>D:\Users\椤惧奖_\Desktop\Direction-module-of-unmanned-vehicle\BSP\receivedata.c</Filename>
+          <Filename>D:\Users\椤惧奖_\Desktop\Direction-module-of-unmanned-vehicle\BSP\stmflash.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\GY_86_demo\../../BSP/receivedata.c\16</Expression>
+          <Expression>\\GY_86_demo\../../BSP/stmflash.c\189</Expression>
+        </Bp>
+        <Bp>
+          <Number>1</Number>
+          <Type>0</Type>
+          <LineNumber>174</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134227756</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>D:\Users\椤惧奖_\Desktop\Direction-module-of-unmanned-vehicle\BSP\stmflash.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\GY_86_demo\../../BSP/stmflash.c\174</Expression>
+        </Bp>
+        <Bp>
+          <Number>2</Number>
+          <Type>0</Type>
+          <LineNumber>144</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134228700</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>D:\Users\椤惧奖_\Desktop\Direction-module-of-unmanned-vehicle\BSP\stmflash.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\GY_86_demo\../../BSP/stmflash.c\144</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
         <Ww>
           <count>0</count>
           <WinNumber>1</WinNumber>
-          <ItemText>sensor.gyro.averag</ItemText>
-        </Ww>
-        <Ww>
-          <count>1</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>sensor.acc.averag,0x0A</ItemText>
-        </Ww>
-        <Ww>
-          <count>2</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>Mag,0x0A</ItemText>
-        </Ww>
-        <Ww>
-          <count>3</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>angle</ItemText>
-        </Ww>
-        <Ww>
-          <count>4</count>
-          <WinNumber>1</WinNumber>
           <ItemText>RxBuff,0x0A</ItemText>
-        </Ww>
-        <Ww>
-          <count>5</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>Buff</ItemText>
         </Ww>
       </WatchWindow1>
       <WatchWindow2>
         <Ww>
           <count>0</count>
           <WinNumber>2</WinNumber>
-          <ItemText>com_data,0x0A</ItemText>
+          <ItemText>sensor.gyro.quiet,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>1</count>
           <WinNumber>2</WinNumber>
-          <ItemText>buff,0x0A</ItemText>
+          <ItemText>sensor.acc.quiet,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>2</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>gyro_offest_buff,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>3</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>acc_offest_buff,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>4</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>temp_gyro_x,0x0A</ItemText>
         </Ww>
       </WatchWindow2>
       <Tracepoint>

@@ -23,9 +23,10 @@ int main(void)
 	I2C_Configuration();		//IIC初始化 SCL ：PB4   SDA： PB5
 	LED_GPIO_Config();		 	//led初始化，led1为PA5
     USART1_Config();			//串口参数配置初始化
+	USART2_Config();
 	
     while(MPU_Init()){
-		UART_PutStr(USART1,"faild\r\n");
+		UART_PutStr(USART2,"faild\r\n");
 		delay_ms(1000);
 	}
 	Acc_Offest_Read();
@@ -33,15 +34,14 @@ int main(void)
 	
 	Init_HMC5883L();
 	Mag_Offest_Read();
-//	HMC5883L_Start_Calib();
+
 	TIM2_Config();				//TIM2定时器初始化 中断间隔 3ms
 		
     while (1)
     {
 
-//		USART_SendData(USART1, 0x02);  
-//		while(USART_GetFlagStatus(USART1, USART_FLAG_TC) == RESET){}  
-//		delay_ms(1000);
+//		UART_PutStr(USART2,"test\r\n");
+		delay_ms(1000);
     }
 }
 
